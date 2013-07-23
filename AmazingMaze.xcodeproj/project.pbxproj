@@ -21,6 +21,9 @@
 		6033AD73179D9EF80028E2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6033AD55179D9EF80028E2C1 /* UIKit.framework */; };
 		6033AD7B179D9EF80028E2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6033AD79179D9EF80028E2C1 /* InfoPlist.strings */; };
 		6033AD7D179D9EF80028E2C1 /* AmazingMazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD7C179D9EF80028E2C1 /* AmazingMazeTests.m */; };
+		60DA662E179DE3440052D1EF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA662D179DE3440052D1EF /* SpriteKit.framework */; };
+		60DA6631179DE8CD0052D1EF /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA6630179DE8CD0052D1EF /* HelloScene.m */; };
+		60DA6635179DF8CC0052D1EF /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA6634179DF8CC0052D1EF /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		6033AD78179D9EF80028E2C1 /* AmazingMazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmazingMazeTests-Info.plist"; sourceTree = "<group>"; };
 		6033AD7A179D9EF80028E2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6033AD7C179D9EF80028E2C1 /* AmazingMazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingMazeTests.m; sourceTree = "<group>"; };
+		60DA662D179DE3440052D1EF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		60DA662F179DE8CD0052D1EF /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		60DA6630179DE8CD0052D1EF /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		60DA6633179DF8CC0052D1EF /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		60DA6634179DF8CC0052D1EF /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DA662E179DE3440052D1EF /* SpriteKit.framework in Frameworks */,
 				6033AD54179D9EF80028E2C1 /* CoreGraphics.framework in Frameworks */,
 				6033AD56179D9EF80028E2C1 /* UIKit.framework in Frameworks */,
 				6033AD52179D9EF80028E2C1 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		6033AD50179D9EF80028E2C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60DA662D179DE3440052D1EF /* SpriteKit.framework */,
 				6033AD51179D9EF80028E2C1 /* Foundation.framework */,
 				6033AD53179D9EF80028E2C1 /* CoreGraphics.framework */,
 				6033AD55179D9EF80028E2C1 /* UIKit.framework */,
@@ -117,6 +127,10 @@
 				6033AD63179D9EF80028E2C1 /* Main.storyboard */,
 				6033AD66179D9EF80028E2C1 /* XYZViewController.h */,
 				6033AD67179D9EF80028E2C1 /* XYZViewController.m */,
+				60DA662F179DE8CD0052D1EF /* HelloScene.h */,
+				60DA6630179DE8CD0052D1EF /* HelloScene.m */,
+				60DA6633179DF8CC0052D1EF /* SpaceshipScene.h */,
+				60DA6634179DF8CC0052D1EF /* SpaceshipScene.m */,
 				6033AD69179D9EF80028E2C1 /* Images.xcassets */,
 				6033AD58179D9EF80028E2C1 /* Supporting Files */,
 			);
@@ -251,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6033AD68179D9EF80028E2C1 /* XYZViewController.m in Sources */,
+				60DA6631179DE8CD0052D1EF /* HelloScene.m in Sources */,
+				60DA6635179DF8CC0052D1EF /* SpaceshipScene.m in Sources */,
 				6033AD62179D9EF80028E2C1 /* XYZAppDelegate.m in Sources */,
 				6033AD5E179D9EF80028E2C1 /* main.m in Sources */,
 			);
@@ -455,6 +471,7 @@
 				6033AD82179D9EF80028E2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6033AD83179D9EF80028E2C1 /* Build configuration list for PBXNativeTarget "AmazingMazeTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +480,7 @@
 				6033AD85179D9EF80028E2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

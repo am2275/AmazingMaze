@@ -24,6 +24,7 @@
 		60DA662E179DE3440052D1EF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA662D179DE3440052D1EF /* SpriteKit.framework */; };
 		60DA6631179DE8CD0052D1EF /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA6630179DE8CD0052D1EF /* HelloScene.m */; };
 		60DA6635179DF8CC0052D1EF /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA6634179DF8CC0052D1EF /* SpaceshipScene.m */; };
+		60DA6642179EF93B0052D1EF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA6641179EF93B0052D1EF /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		60DA6630179DE8CD0052D1EF /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 		60DA6633179DF8CC0052D1EF /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
 		60DA6634179DF8CC0052D1EF /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
+		60DA6641179EF93B0052D1EF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DA6642179EF93B0052D1EF /* CoreMotion.framework in Frameworks */,
 				60DA662E179DE3440052D1EF /* SpriteKit.framework in Frameworks */,
 				6033AD54179D9EF80028E2C1 /* CoreGraphics.framework in Frameworks */,
 				6033AD56179D9EF80028E2C1 /* UIKit.framework in Frameworks */,
@@ -110,6 +113,7 @@
 		6033AD50179D9EF80028E2C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60DA6641179EF93B0052D1EF /* CoreMotion.framework */,
 				60DA662D179DE3440052D1EF /* SpriteKit.framework */,
 				6033AD51179D9EF80028E2C1 /* Foundation.framework */,
 				6033AD53179D9EF80028E2C1 /* CoreGraphics.framework */,
